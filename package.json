@@ -1,0 +1,20 @@
+{
+  "name": "matan-docspring-types",
+  "version": "1.0.12",
+  "description": "Types generated from openapi to be used with the DocSpring JavaScript client",
+  "main": "index.ts",
+  "repository": "https://github.com/Marble-rnd/docspring-types",
+  "license": "MIT",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "publish": "yarn build && npm publish"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/request": "^2.48.8"
+  }
+}
