@@ -1,6 +1,6 @@
 {
   "name": "matan-docspring-types",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Types generated from openapi to be used with the DocSpring JavaScript client",
   "main": "index.ts",
   "repository": "https://github.com/Marble-rnd/docspring-types",
